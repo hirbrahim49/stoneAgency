@@ -1,14 +1,18 @@
 
 import './App.css'
 
-function App() {
-  
+import SimpleSlider from '../public/components/simpleSlider'
 
+
+
+function App() {
   return (
-    <>
-      
-    </>
+   <div>
+     <SimpleSlider/>
+     </div>
   )
+  
+  
 }
 
 export default App
