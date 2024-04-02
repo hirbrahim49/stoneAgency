@@ -1,14 +1,18 @@
 
-import './App.css'
 
-import SimpleSlider from '../public/components/simpleSlider'
+import './App.css'
+import AutoScroll from './components/AutoScroll'
+
+
+
 
 
 
 function App() {
   return (
    <div>
-     <SimpleSlider/>
+  <AutoScroll/>
+   
      </div>
   )
   
